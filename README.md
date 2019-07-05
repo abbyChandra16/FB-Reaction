@@ -34,4 +34,4 @@ Initialise it in your activity ->
         }
 	
 	
-	It has two parameters context and a view.
+	It has two parameters context and  view.
