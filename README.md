@@ -18,3 +18,20 @@ Steps to integrate it into your project :
 	dependencies {
 	        implementation 'com.github.abbyChandra16:FB-Reaction:1.0'
 	}
+	
+	
+	
+How to use :
+
+Initialise it in your activity ->
+ var reaction = Reaction()
+ 
+ On a click listener call this method ->
+ 
+  btnReaction.setOnClickListener {
+
+            reaction.react(this, btnReaction)
+        }
+	
+	
+	It has two parameters context and a view.
