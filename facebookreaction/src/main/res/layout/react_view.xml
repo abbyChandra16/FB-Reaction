@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/popup_element"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+            android:elevation="40dip"
+            android:background="@drawable/circular_edittext_bg"
+            android:padding="10dip"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/imgLike"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:src="@drawable/ic_fb_like"/>
+
+        <ImageView
+                android:id="@+id/imgLove"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:src="@drawable/ic_fb_love"/>
+
+        <ImageView
+                android:id="@+id/imgLaugh"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:src="@drawable/ic_fb_laugh"/>
+
+        <ImageView
+                android:id="@+id/imgWow"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:src="@drawable/ic_fb_wow"/>
+
+        <ImageView
+                android:id="@+id/imgSad"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:src="@drawable/ic_fb_sad"/>
+
+        <ImageView
+                android:id="@+id/imgAngry"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:src="@drawable/ic_fb_angry"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
